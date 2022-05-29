@@ -84,3 +84,9 @@ p {
     text-align: center;
   }
 }
+
+.image {
+  padding: 60px 20px;
+  background: var(--secondary-color);
+  border-radius: 15px;
+}
