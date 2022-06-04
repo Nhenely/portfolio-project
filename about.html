@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio - Nicole Henely</title>
+    <meta
+      name="description"
+      content="About Nicole Henely, front-end engineer"
+    />
+    <title>About Me - Nicole Henely</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,12 +22,47 @@
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
     <script
+      src="https://kit.fontawesome.com/6ce95fe150.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo"
+          />
+        </a>
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="SheCodes Logo"
+        /></a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Nicole">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Nicole's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Nicole">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -36,17 +75,71 @@
               everything is well explained. Homework and deadlines are good to
               keep focus
             </p>
-            <a href="#" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding" title="Nicole's work"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
           <img
             src="images/headshot.png"
             class="img-fluid headshot mt-4"
-            alt=""
+            alt="Picture of Nicole"
           />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Nicole"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            href="mailto:nicole.henely@gmail.com"
+            class="email-link"
+            title="Email Nicole"
+            >nicole.henely@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/nhenely"
+            target="blank"
+            title="Github Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/nicole-henely-1554b19/"
+            target="blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5 text-muted">
+          ☝️ This project was coded by Nicole, and it is
+          <a
+            href="https://github.com/Nhenely/portfolio-project.git"
+            target="blank"
+            title="GitHub Project"
+            >open-sourced.</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

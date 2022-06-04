@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio - Nicole Henely</title>
+    <meta
+      name="description"
+      content="Nicole is a front-end engineer based in Minnesota. This is a portfolio of her work."
+    />
+    <title>Front-end developer - Nicole Henely</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,27 +34,31 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo"
+          />
         </a>
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo-small.png"
             class="logo d-block d-md-none"
-            alt=""
+            alt="SheCodes Logo"
         /></a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Nicole">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Nicole's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Nicole">Contact</a>
           </li>
         </ul>
       </nav>
@@ -60,7 +68,7 @@
       <h1>Nicole Henely</h1>
       <h2 class="mb-5">Frontend Developer, based in Minnesota.</h2>
       <div>
-        <a href="mailto:nicole.henely@gmail.com" class="btn btn-branding"
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
           >Contact Me</a
         >
       </div>
@@ -69,7 +77,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/intermittent.png" class="img-fluid image" alt="" />
+          <img
+            src="images/intermittent.png"
+            class="img-fluid image"
+            alt="Intermittent Fasting project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -82,9 +94,9 @@
               period.
             </p>
             <a
-              href="https://keen-kulfi-a854c7.netlify.app/"
+              href="/work.html"
               class="btn btn-branding-outline"
-              target="blank"
+              title="Intermittent Fasting App"
               >Learn more</a
             >
           </div>
@@ -101,15 +113,19 @@
               provides temperature high and low and weather condition.
             </p>
             <a
-              href="https://admiring-hawking-ebaa5f.netlify.app/"
+              href="/work.html"
               class="btn btn-branding-outline"
-              target="blank"
+              title="Weather app"
               >Learn more</a
             >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid image" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid image"
+            alt="Weather App Preview"
+          />
         </div>
       </div>
       <footer>
@@ -117,32 +133,52 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Nicole"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-4">
-          <a href="mailto:nicole.henely@gmail.com" class="email-link"
+          <a
+            href="mailto:nicole.henely@gmail.com"
+            class="email-link"
+            title="Email Nicole"
             >nicole.henely@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/nhenely" target="blank">
+          <a
+            href="https://www.github.com/nhenely"
+            target="blank"
+            title="Github Profile"
+          >
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://www.instagram.com/nhenely.codes" target="blank">
-            <i class="fab fa-instagram"></i>
-          </a>
+
           <a
             href="https://www.linkedin.com/in/nicole-henely-1554b19/"
             target="blank"
+            title="LinkedIn Profile"
           >
             <i class="fab fa-linkedin"></i>
           </a>
         </div>
+        <p class="text-center mt-5 text-muted">
+          ☝️ This project was coded by Nicole, and it is
+          <a
+            href="https://github.com/Nhenely/portfolio-project.git"
+            target="blank"
+            title="GitHub Project"
+            >open-sourced.</a
+          >
+        </p>
       </footer>
     </div>
   </body>
